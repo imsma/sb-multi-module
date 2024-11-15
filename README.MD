@@ -7,10 +7,14 @@ This is a multi-module project using Spring Boot. It demonstrates how to structu
 ```
 sb-multi-module
 │
-├── parent
-│   └── pom.xml
+├── pom.xml
+├── mvnw
+├── mvnw.cmd
+├── .mvn
+│   └── wrapper
+│       └── maven-wrapper.properties
 │
-├── module-a
+├── application
 │   └── src
 │       └── main
 │           └── java
@@ -19,7 +23,7 @@ sb-multi-module
 │           └── java
 │   └── pom.xml
 │
-├── module-b
+├── library
 │   └── src
 │       └── main
 │           └── java
@@ -28,6 +32,7 @@ sb-multi-module
 │           └── java
 │   └── pom.xml
 │
+├── LICENSE
 └── README.md
 ```
 
